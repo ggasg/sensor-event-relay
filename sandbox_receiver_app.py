@@ -46,4 +46,5 @@ async def main():
         await credential.close()
 
 load_dotenv()
+# Something's going on here that it doesn't close the connection
 asyncio.run(main())
